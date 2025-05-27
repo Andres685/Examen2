@@ -7,8 +7,6 @@ import jakarta.persistence.Id;
 @Entity
 @Table(name="productos")
 public class Producto {
-
-
     @Id
     private String id;
     private String nombre;
